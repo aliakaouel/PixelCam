@@ -30,6 +30,7 @@ let sketch0 = function(p){
   //   resizeCanvas(windowWidth,windowHeight);
   // }
 }
+let p0 = new p5(sketch0);
 
 
 //Frame 1
@@ -105,6 +106,7 @@ let sketch1 = function(p){
     p.image(frame1, 0, 0, 500, 400);
   }
 }
+let p1 = new p5(sketch1);
 
 
 //Frame 2
@@ -149,6 +151,7 @@ let sketch2 = function(p){
     p.image(frame2, 0, 0, 300, 250);
   }
 }
+let p2 = new p5(sketch2);
 
 
 //Frame 3
@@ -192,7 +195,4 @@ let sketch2 = function(p){
 // }
 
 
-let p0 = new p5(sketch0);
-let p1 = new p5(sketch1);
-let p2 = new p5(sketch2);
-let p3 = new p5(sketch3)
+// let p3 = new p5(sketch3)
